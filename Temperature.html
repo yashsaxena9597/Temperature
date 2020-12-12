@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+   .con{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 2%;
+  text-align: center;
+}
+.confl
+{
+  text-align: center;
+  background-color: orange;
+}
+.con1{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(255,255,255,0.51);
+  border-radius: 20px;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2%;
+}
+
+
+  </style>
+<title>Temperature</title>
+</head>
+<body class="confl">
+	<div class="con">
+		<h1>Conversion</h1>
+		
+	</div>
+	<div class="con1">
+		<h1>Convert -<br> Your Temperature!</h1>
+		<hr >
+	
+	
+		<form  method="GET">
+  
+   <br><br>
+  <label for="lname">To convert from :</label>
+  <select name="Temp">
+  	<option value="Farenheit">Farenheit</option>
+  <option value="Celsius">Celsius</option>
+  
+</select><br><br>
+  <label for="Temperature">Temperature:</label>
+ 
+
+  <input type="text" value="" id="val" >
+  <label for="Result">Result:</label>
+  <input type="text" id="res" name="" value="" ><br><br>
+  <input type="button"  name="" value="convert" onclick ="conversion()" >
+</form> 
+	</div>
+
+	<script src="temp.js"></script>
+
+
+</body>
+</html>
